@@ -65,16 +65,7 @@ float CapValue(int IN_PIN, int OUT_PIN) {
     digitalWrite(IN_PIN, LOW);
 
     float capacitance = -(float)t / R_PULLUP / log(1.0 - (float)val / (float)MAX_ADC_VALUE);
-
-    if (capacitance > 1000.0)
-    {
-      return (capacitance * 1000.0); //pF
-    }
-
-    else
-    {
-      return (capacitance * 1000.0); //pF
-    }
+    return (capacitance * 1000.0); //pF
   }
   while (micros() % 1000 != 0);
 }
