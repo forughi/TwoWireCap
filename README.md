@@ -7,4 +7,9 @@ No circuit is needed. The precision/accuracy is acceptable considering the simpl
 
 Developed based on a code published at [http://www.circuitbasics.com/how-to-make-an-arduino-capacitance-meter/]
 
-(Amir Farzad Forughi, UBC, March 2019.)
+(A. F. Forughi, UBC, March 2019.)
+
+# Installation
+Download from https://github.com/forughi/TwoWireCap/archive/master.zip.
+
+Extract it to the libraries folder inside your Sketchbook. Default is [user]\Arduino\libraries.
