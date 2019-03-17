@@ -1,7 +1,7 @@
 # TwoWireCap
 Two-wire capacitance measurement for Arduino. Working range: pF to 100s uF.
 
-CapValue(int IN_PIN, int OUT_PIN) function returns the value of a capacitor [in pF] that is directly connected to analog pins "IN_PIN" and "OUT_PIN".
+CapValue(int IN_PIN, int OUT_PIN) function returns the value of a capacitor [in pF] that is directly connected to analog pins "IN_PIN" and "OUT_PIN". Please see the example code.
 
 No circuit is needed. The precision/accuracy is acceptable considering the simplicity of the code and circuit.
 
